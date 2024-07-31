@@ -1,0 +1,26 @@
+# Local Terraform files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+.terraformrc
+terraform.rc
+
+# Ignore the credentials file
+*.tfvars
+*.tfvars.json
+
+# Ignore sensitive variables and secrets
+*.pem
+*.key
+*.crt
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
