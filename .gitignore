@@ -24,3 +24,5 @@ terraform.rc
 # Ignore OS-specific files
 .DS_Store
 Thumbs.db
+
+keypair
