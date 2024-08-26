@@ -6,6 +6,7 @@ terraform.tfstate.backup
 *.tfstate.*
 .terraformrc
 terraform.rc
+.terraform.lock.hcl
 
 # Ignore the credentials file
 *.tfvars
