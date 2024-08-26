@@ -1,10 +1,8 @@
 terraform {
   required_providers {
     anypoint = {
-      # source = "mulesoft-anypoint/anypoint"
-      # version = "1.5.6"
-      source = "anypoint.mulesoft.com/automation/anypoint"
-      version = "1.6.2-SNAPSHOT"
+      source = "mulesoft-anypoint/anypoint"
+      version = "1.7.0"
     }
 
     aws = {
